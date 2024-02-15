@@ -12,3 +12,97 @@
 body{
     font-family: "PT Sans", sans-serif;
 }
+/*----------------
+    GENERAL
+----------------*/
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container{
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+    color: #ffff;
+}
+/*----------------
+    FLEX
+----------------*/
+.j-center{
+    justify-content: center;
+}
+.sp-between{
+    justify-content:space-between;
+}
+.align-center{
+    align-items: center;
+}
+.gap{
+    gap: 30px;
+}
+.grow{
+    flex-grow: 1;
+}
+/*----------------
+    BUTTON
+----------------*/
+button{
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    /* width: 100%; */
+}
+.btn-purple{
+    max-width: 140px;
+    background-color: #9792e4;
+    color: white;
+}
+.btn-blue{
+    background-color: #0084fd;
+    color: white;
+    max-width: 220px;
+}
+.btn-width{
+    max-width: 120px;
+}
+.btn-height{
+    min-height: 40px;
+}
+.btn-circle{
+    border-radius: 50%;
+    max-width: 50px;
+    max-height: 50px;
+    background-color: #9792e4;
+}
+.btn-white{
+    background-color: #ffff;
+    color:#9792e4;
+    max-width: 290px;
+}
+.btn-small{
+    background-color: #9792e4;
+    max-width: 190px;
+    padding: 10px 0;
+    max-height: 30px;
+}
+/*----------------
+    PADDING
+----------------*/
+.padding-15{
+    padding: 15px 0;
+}
+/*----------------
+    HEADER
+----------------*/
+header{
+    background-color: #0084fd;
+}
+/*----------------
+    MAIN
+----------------*/
+/*----------------
+    FOOTER
+----------------*/
