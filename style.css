@@ -165,6 +165,8 @@ header{
     min-height: 340px;
     border-radius: 20px;
 }
+.phone{
+}
 #intro h1, #intro i{
     color: #0084fd;
 }
@@ -199,8 +201,10 @@ header{
     #intro{
         padding-bottom: 80px;
     }
+    .phone{
+        width: 100%;
+    }
     #intro .col{
-        flex-direction: column;
         width: 100%;
     }
 }
