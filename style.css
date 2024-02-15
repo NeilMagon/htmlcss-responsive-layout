@@ -218,6 +218,13 @@ header{
         align-items: center;
         display: flex;
     }
+    #planning .col{
+        width: 100%;
+    }
+    .tablet{
+        font-size: 70px;
+        margin-bottom: 50px;
+    }
 }
 /*----------------
     MOBILE
