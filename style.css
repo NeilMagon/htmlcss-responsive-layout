@@ -20,9 +20,14 @@ body{
     flex-wrap: wrap;
 }
 .container{
-    max-width: 1170px;
+    max-width: 1160px;
     padding: 0 10px;
     margin: 0 auto;
+}
+.container-small{
+    max-width: 950px;
+    padding: 0 10px;
+    margin: 0 auto
 }
 a{
     text-decoration: none;
@@ -30,6 +35,12 @@ a{
 }
 img{
     max-width: 100%;
+}
+.color{
+    background-color: #9792e4;
+}
+.text-center{
+    text-align: center;
 }
 /*----------------
     FLEX
@@ -77,8 +88,8 @@ button{
 }
 .btn-circle{
     border-radius: 50%;
-    max-width: 50px;
-    max-height: 50px;
+    min-width: 50px;
+    min-height: 50px;
 }
 .btn-white{
     background-color: #ffff;
@@ -90,9 +101,6 @@ button{
     max-width: 190px;
     padding: 10px 0;
     max-height: 30px;
-}
-.color{
-    background-color: #9792e4;
 }
 /*----------------
     COL
@@ -165,19 +173,21 @@ header{
     min-height: 340px;
     border-radius: 20px;
 }
-.phone{
-}
 #intro h1, #intro i{
     color: #0084fd;
-}
-.info {
-    text-align: center;
 }
 .info i{
     padding: 30px 0;
 }
 .info .fa-solid{
     font-size: 80px;
+}
+#planning .col{
+    width: calc(50% - 20px);
+}
+.col-white{
+    background-color: white;
+    border-radius: 40px;
 }
 /*----------------
     FOOTER
@@ -200,9 +210,6 @@ header{
 @media screen and (max-width: 768px) {
     #intro{
         padding-bottom: 80px;
-    }
-    .phone{
-        width: 100%;
     }
     #intro .col{
         width: 100%;
