@@ -225,6 +225,9 @@ header{
         font-size: 70px;
         margin-bottom: 50px;
     }
+    .margin-t-250{
+        margin: 0;
+    }
 }
 /*----------------
     MOBILE
