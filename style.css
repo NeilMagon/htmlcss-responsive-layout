@@ -28,6 +28,10 @@ a{
     text-decoration: none;
     color: #ffff;
 }
+.none{
+    display: none;
+    color: #ffff;
+}
 /*----------------
     FLEX
 ----------------*/
@@ -53,20 +57,22 @@ button{
     border: none;
     cursor: pointer;
     border-radius: 20px;
-    /* width: 100%; */
 }
 .btn-purple{
     max-width: 140px;
     background-color: #9792e4;
     color: white;
+    width: 100%;
 }
 .btn-blue{
     background-color: #0084fd;
     color: white;
     max-width: 220px;
+    width: 100%;
 }
 .btn-width{
     max-width: 120px;
+    padding: 0 20px;
 }
 .btn-height{
     min-height: 40px;
@@ -81,6 +87,7 @@ button{
     background-color: #ffff;
     color:#9792e4;
     max-width: 290px;
+    width: 100%;
 }
 .btn-small{
     background-color: #9792e4;
@@ -105,4 +112,19 @@ header{
 ----------------*/
 /*----------------
     FOOTER
+----------------*/
+/*----------------
+    TABLET
+----------------*/
+@media screen and (max-width: 992px) {
+    .shadow {
+        display: none;
+    }
+    .none{
+        align-items: center;
+        display: flex;
+    }
+}
+/*----------------
+    MOBILE
 ----------------*/
