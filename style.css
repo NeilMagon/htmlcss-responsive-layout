@@ -154,5 +154,7 @@ header{
     MOBILE
 ----------------*/
 @media screen and (max-width: 768px) {
-
+    #intro .col{
+        width: 100%;
+    }
 }
