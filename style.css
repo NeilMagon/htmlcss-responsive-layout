@@ -126,6 +126,9 @@ ul li{
 .margin-t-80{
     margin-top: 80px;
 }
+.margin-b-100{
+    margin-bottom: 100px;
+}
 .margin-t-170{
     margin-top: 170px;
 }
@@ -210,6 +213,9 @@ header{
 #testimonials h1{
     color: #9792e4;
     font-size: 40px;
+}
+#benefit .col{
+    width: calc(100% / 3);
 }
 /*----------------
     FOOTER
