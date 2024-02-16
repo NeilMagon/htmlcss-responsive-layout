@@ -102,6 +102,9 @@ ul li{
 .padding-t-100{
     padding-top: 100px;
 }
+.padding-b-60{
+    padding-bottom: 60px;
+}
 .padding-b-100{
     padding-bottom: 100px;
 }
@@ -191,6 +194,13 @@ header{
     #intro .dis-flex{
         display: inline-block;
         max-width: 100%;
+    }
+    #planning .col{
+        width: 100%;
+        margin-top: 0;
+    }
+    #planning h2{
+        font-size: 50px;
     }
 }
 /*----------------
