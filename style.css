@@ -24,8 +24,6 @@ body{
 .row{
     display: flex;
     flex-wrap: wrap;
-    margin-left: -10px;
-    margin-right: -10px;
 }
 img{
     max-width: 100%;
@@ -99,6 +97,12 @@ ul li{
 header{
     background-color: #0084fd;
 }
+.menu-mobile{
+    display: none;
+    font-size: 30px;
+    padding-right: 30px;
+    color: #ffff;
+}
 /*----------------
     MAIN
 ----------------*/
@@ -133,7 +137,13 @@ header{
     TABLET
 ----------------*/
 @media screen and (max-width: 992px) {
-
+    .shadow {
+        display: none;
+    }
+    .menu-mobile{
+        align-items: center;
+        display: block;
+    }
 }
 /*----------------
     MOBILE
