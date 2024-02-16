@@ -218,6 +218,9 @@ header{
         align-items: center;
         display: flex;
     }
+    #intro .width-50{
+        width: 100%;
+    }
     #planning .col{
         width: 100%;
     }
@@ -226,7 +229,7 @@ header{
         margin-bottom: 50px;
     }
     .margin-t-250{
-        margin: 0;
+        margin: 30px 20px;
     }
 }
 /*----------------
