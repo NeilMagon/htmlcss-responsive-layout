@@ -54,6 +54,9 @@ ul li{
 .bg-white{
     background-color: #fff;
 }
+.color-purple{
+    color: #9792e4;
+}
 .color-white{
     color: #ffff;
 }
@@ -93,6 +96,12 @@ ul li{
 .padding-15{
     padding: 15px 0;
 }
+.padding-30{
+    margin: 30px 0;
+}
+.padding-70{
+    padding: 70px 0;
+}
 .padding-l-30{
     padding-left: 30px;
 }
@@ -111,11 +120,20 @@ ul li{
 /*----------------
     MARGIN
 ----------------*/
+.margin-50{
+    margin: 50px 0;
+}
+.margin-t-80{
+    margin-top: 80px;
+}
 .margin-t-170{
     margin-top: 170px;
 }
 /*----------------
     WIDHT
+----------------*/
+/*----------------
+    HEIGHT
 ----------------*/
 /*----------------
     HEADER
@@ -176,6 +194,22 @@ header{
 }
 #planning button{
     margin: 30px 0;
+}
+.img-circle{
+    width: 500px;
+}
+#testimonials img{
+    clip-path: circle();
+}
+#testimonials .bg-color{
+    border-radius: 50px;
+}
+#testimonials .img-circle, #testimonials h4{
+    padding: 30px 0;
+}
+#testimonials h1{
+    color: #9792e4;
+    font-size: 40px;
 }
 /*----------------
     FOOTER
