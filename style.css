@@ -13,3 +13,94 @@ body{
     font-family: "PT Sans", sans-serif;
     line-height: 1.5;
 }
+/*----------------
+    GENERAL
+----------------*/
+.container{
+    max-width: 1170px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+img{
+    max-width: 100%;
+}
+.text-center{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+ul li{
+    list-style: none;
+}
+/*----------------
+    FLEX
+----------------*/
+.j-center{
+    justify-content: center;
+}
+.sp-between{
+    justify-content:space-between;
+}
+.align-center{
+    align-items: center;
+}
+.gap{
+    gap: 30px;
+}
+.grow{
+    flex-grow: 1;
+}
+/*----------------
+    BUTTON
+----------------*/
+/*----------------
+    COL
+----------------*/
+.col{
+    padding: 10px 10px;
+}
+/*----------------
+    PADDING
+----------------*/
+.padding-15{
+    padding: 15px 0;
+}
+/*----------------
+    MARGIN
+----------------*/
+/*----------------
+    WIDHT
+----------------*/
+/*----------------
+    HEADER
+----------------*/
+header{
+    background-color: #0084fd;
+}
+/*----------------
+    MAIN
+----------------*/
+/*----------------
+    FOOTER
+----------------*/
+/*----------------
+    TABLET
+----------------*/
+@media screen and (max-width: 992px) {
+
+}
+/*----------------
+    MOBILE
+----------------*/
+@media screen and (max-width: 768px) {
+
+}
