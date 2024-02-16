@@ -39,9 +39,6 @@ img{
 .color{
     background-color: #9792e4;
 }
-.text-white{
-    color: #ffff;
-}
 .text-center{
     text-align: center;
 }
@@ -190,6 +187,9 @@ header{
 }
 #intro h1, .info i {
     color: #0084fd;
+}
+#intro button{
+    font-size: 16px;
 }
 .info i{
     padding: 30px 0;
