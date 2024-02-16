@@ -111,6 +111,7 @@ header{
 }
 #intro .card{
     border-radius: 30px;
+    height: 100%;
 }
 .phone{
     max-width: 300px;
@@ -143,6 +144,10 @@ header{
     .menu-mobile{
         align-items: center;
         display: block;
+    }
+    #intro .dis-flex{
+        display: inline-block;
+        max-width: 100%;
     }
 }
 /*----------------
