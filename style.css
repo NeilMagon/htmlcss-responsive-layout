@@ -244,4 +244,10 @@ header{
     #intro .col{
         width: 100%;
     }
+    #testimonials .dis-flex{
+        flex-direction: column;
+    }
+    #testimonials .mobile{
+        text-align: center;
+    }
 }
