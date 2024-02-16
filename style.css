@@ -21,6 +21,11 @@ body{
     padding: 0 10px;
     margin: 0 auto;
 }
+.container-small{
+    max-width: 930px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
 .row{
     display: flex;
     flex-wrap: wrap;
@@ -42,6 +47,15 @@ ul li{
 .card{
     background-color: #b5ddff;
     min-height: 340px;
+}
+.bg-color{
+    background-color: #9792e4;
+}
+.bg-white{
+    background-color: #fff;
+}
+.color-white{
+    color: #ffff;
 }
 /*----------------
     FLEX
@@ -85,9 +99,18 @@ ul li{
 .padding-t-30{
     padding-top: 30px;
 }
+.padding-t-100{
+    padding-top: 100px;
+}
+.padding-b-100{
+    padding-bottom: 100px;
+}
 /*----------------
     MARGIN
 ----------------*/
+.margin-t-170{
+    margin-top: 170px;
+}
 /*----------------
     WIDHT
 ----------------*/
@@ -130,7 +153,27 @@ header{
 .info i{
     padding: 30px 0;
 }
-
+#planning .col{
+    width: 50%;
+    border-radius: 50px;
+}
+#planning img{
+    max-width: 400px;
+}
+#planning .bg-white img{
+    max-width: 300px;
+}
+#planning h2{
+    padding-top: 130px;
+    padding-bottom: 60px;
+}
+#planning h3{
+    padding: 20px 0;
+    font-weight: 700;
+}
+#planning button{
+    margin: 30px 0;
+}
 /*----------------
     FOOTER
 ----------------*/
