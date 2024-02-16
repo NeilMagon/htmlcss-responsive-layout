@@ -41,9 +41,16 @@ a{
 ul li{
     list-style: none;
 }
+.card{
+    background-color: #b5ddff;
+    min-height: 340px;
+}
 /*----------------
     FLEX
 ----------------*/
+.dis-flex{
+    display: flex;
+}
 .j-center{
     justify-content: center;
 }
@@ -74,6 +81,12 @@ ul li{
 .padding-15{
     padding: 15px 0;
 }
+.padding-l-30{
+    padding-left: 30px;
+}
+.padding-t-30{
+    padding-top: 30px;
+}
 /*----------------
     MARGIN
 ----------------*/
@@ -89,6 +102,30 @@ header{
 /*----------------
     MAIN
 ----------------*/
+#intro .col{
+    width: calc(100% / 3);
+}
+#intro .card{
+    border-radius: 30px;
+}
+.phone{
+    max-width: 300px;
+    margin-top: 60px;
+}
+#intro h3, .info i {
+    color: #0084fd;
+}
+#intro p{
+    padding: 40px 30px;
+    color: #5a6e7f;
+}
+.info .fa-solid{
+    font-size: 80px;
+}
+.info i{
+    padding: 30px 0;
+}
+
 /*----------------
     FOOTER
 ----------------*/
