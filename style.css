@@ -46,7 +46,6 @@ ul li{
 }
 .card{
     background-color: #b5ddff;
-    min-height: 340px;
 }
 .bg-color{
     background-color: #9792e4;
@@ -97,7 +96,7 @@ ul li{
     padding: 15px 0;
 }
 .padding-30{
-    margin: 30px 0;
+    padding: 0 30px;
 }
 .padding-70{
     padding: 70px 0;
@@ -108,8 +107,17 @@ ul li{
 .padding-t-30{
     padding-top: 30px;
 }
+.padding-t-50{
+    padding-top: 50px;
+}
+.padding-t-70{
+    padding-top: 70px;
+}
 .padding-t-100{
     padding-top: 100px;
+}
+.padding-b-30{
+    padding-bottom: 30px;
 }
 .padding-b-60{
     padding-bottom: 60px;
@@ -120,6 +128,9 @@ ul li{
 /*----------------
     MARGIN
 ----------------*/
+.margin-30{
+    margin: 30px 0;
+}
 .margin-50{
     margin: 50px 0;
 }
@@ -216,6 +227,18 @@ header{
 }
 #benefit .col{
     width: calc(100% / 3);
+}
+#benefit .card{
+    background-color: #ffff;
+    border-radius: 30px;
+}
+#benefit .number{
+    font-size: 70px;
+}
+#benefit h1{
+    font-size: 40px;
+    font-weight: 900;
+    color: #fff;
 }
 /*----------------
     FOOTER
