@@ -265,6 +265,10 @@ header{
     #planning h2{
         font-size: 50px;
     }
+    #benefit .col{
+        width: 50%;
+    }
+    
 }
 /*----------------
     MOBILE
@@ -278,5 +282,8 @@ header{
     }
     #testimonials .mobile{
         text-align: center;
+    }
+    #benefit .col{
+        width: 100%;
     }
 }
