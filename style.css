@@ -203,17 +203,15 @@ button{
     margin-top: 170px;
 }
 /*----------------
-    WIDHT
-----------------*/
-/*----------------
-    HEIGHT
-----------------*/
-/*----------------
     HEADER
 ----------------*/
 header{
     background-color: #0084fd;
+    position: sticky;
+    top: 0;
+    left: 0;
 }
+
 .menu-mobile{
     display: none;
     font-size: 30px;
