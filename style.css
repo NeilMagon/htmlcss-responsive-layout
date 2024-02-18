@@ -103,11 +103,29 @@ button{
 .btn-radius{
     border-radius: 30px;
 }
+#benefit button{
+    letter-spacing: 1.5px;
+    padding: 10px 40px;
+    background-color: #9792e4;
+    color: #fff;
+    border-radius: 30px;
+}
 .btn-circle{
     background-color: #9792e4;
     clip-path: circle();
     padding: 20px 20px;
     font-size: 20px;
+}
+.btn-small{
+    background-color: #9792e4;
+    padding: 5px 10px;
+    font-size: 10px;
+    border-radius: 20px;
+}
+.btn-big{
+    padding: 25px 80px;
+    color: #9792e4;
+    border-radius: 40px;
 }
 /*----------------
     COL
@@ -251,7 +269,7 @@ header{
     margin: 30px 0;
 }
 .img-circle{
-    width: 500px;
+    max-width: 500px;
 }
 #testimonials img{
     clip-path: circle();
@@ -281,18 +299,11 @@ header{
     font-weight: 900;
     color: #fff;
 }
-#benefit button{
-    letter-spacing: 1.5px;
-    padding: 10px 40px;
-    background-color: #9792e4;
-    color: #fff;
-    border-radius: 30px;
-}
 #about-us h1{
     font-size: 55px;
 }
 #about-us img{
-    width: 250px;
+    max-width:  250px;
     clip-path: circle();
 }
 #about-us .col{
@@ -308,7 +319,7 @@ header{
     font-size: 25px;
     font-weight: 900;
 }
-#about-us i{
+#about-us .pos-relative i{
     position: absolute;
     font-size: 60px;
     right: 30px;
