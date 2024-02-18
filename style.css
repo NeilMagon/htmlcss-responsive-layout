@@ -33,6 +33,9 @@ body{
 img{
     max-width: 100%;
 }
+/*----------------
+    UTILITY
+----------------*/
 .text-center{
     text-align: center;
 }
@@ -154,12 +157,21 @@ button{
 .padding-70{
     padding: 70px 0;
 }
+/*----------------
+    PADDING-LEFT
+----------------*/
 .padding-l-30{
     padding-left: 30px;
 }
+/*----------------
+    PADDING-RIGHT
+----------------*/
 .padding-r-100{
     padding-right: 100px;
 }
+/*----------------
+    PADDING-TOP
+----------------*/
 .padding-t-30{
     padding-top: 30px;
 }
@@ -175,6 +187,9 @@ button{
 .padding-t-100{
     padding-top: 100px;
 }
+/*----------------
+    PADDING-BOT
+----------------*/
 .padding-b-30{
     padding-bottom: 30px;
 }
@@ -193,14 +208,20 @@ button{
 .margin-50{
     margin: 50px 0;
 }
+/*----------------
+    MARGIN-TOP
+----------------*/
 .margin-t-80{
     margin-top: 80px;
 }
-.margin-b-100{
-    margin-bottom: 100px;
-}
 .margin-t-170{
     margin-top: 170px;
+}
+/*----------------
+    MARGIN-BOT
+----------------*/
+.margin-b-100{
+    margin-bottom: 100px;
 }
 /*----------------
     HEADER
@@ -220,6 +241,9 @@ header{
 }
 /*----------------
     MAIN
+----------------*/
+/*----------------
+    SECTION-INTRO
 ----------------*/
 #intro .col{
     width: calc(100% / 3);
@@ -245,6 +269,9 @@ header{
 .info i{
     padding: 30px 0;
 }
+/*----------------
+  SECTION-PLANNING
+----------------*/
 #planning .col{
     width: 50%;
     border-radius: 50px;
@@ -269,6 +296,9 @@ header{
 .img-circle{
     max-width: 500px;
 }
+/*----------------
+  SECTION-TESTIMONIALS
+----------------*/
 #testimonials img{
     clip-path: circle();
 }
@@ -282,6 +312,9 @@ header{
     color: #9792e4;
     font-size: 40px;
 }
+/*----------------
+  SECTION-BENEFIT
+----------------*/
 #benefit .col{
     width: calc(100% / 3);
 }
@@ -297,6 +330,9 @@ header{
     font-weight: 900;
     color: #fff;
 }
+/*----------------
+  SECTION-ABOUT-US
+----------------*/
 #about-us h1{
     font-size: 55px;
 }
@@ -323,6 +359,9 @@ header{
     right: 30px;
     top: 10px;
 }
+/*----------------
+  SECTION-GET-STARTED
+----------------*/
 #get-started h4{
     color: #cbc9f1;
 }
