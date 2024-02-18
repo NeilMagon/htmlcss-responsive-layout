@@ -59,6 +59,9 @@ ul li{
 .color-white{
     color: #ffff;
 }
+.pos-relative{
+    position: relative;
+}
 /*----------------
     FLEX
 ----------------*/
@@ -104,6 +107,9 @@ ul li{
 .padding-l-30{
     padding-left: 30px;
 }
+.padding-r-100{
+    padding-right: 100px;
+}
 .padding-t-30{
     padding-top: 30px;
 }
@@ -112,6 +118,9 @@ ul li{
 }
 .padding-t-70{
     padding-top: 70px;
+}
+.padding-t-90{
+    padding-top: 90px;
 }
 .padding-t-100{
     padding-top: 100px;
@@ -240,6 +249,32 @@ header{
     font-weight: 900;
     color: #fff;
 }
+#about-us h1{
+    font-size: 55px;
+}
+#about-us img{
+    width: 250px;
+    clip-path: circle();
+}
+#about-us .col{
+    width: 75%;
+}
+#about-us .col-small{
+    width: 25%;
+}
+#about-us p{
+    line-height: 2;
+}
+#about-us .col-small p {
+    font-size: 25px;
+    font-weight: 900;
+}
+#about-us i{
+    position: absolute;
+    font-size: 60px;
+    right: 30px;
+    top: 10px;
+}
 /*----------------
     FOOTER
 ----------------*/
@@ -283,7 +318,8 @@ header{
     #testimonials .mobile{
         text-align: center;
     }
-    #benefit .col{
+    #benefit .col, #about-us .col{
         width: 100%;
     }
+    
 }
