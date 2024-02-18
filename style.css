@@ -372,7 +372,9 @@ footer a{
     #benefit .col{
         width: 50%;
     }
-    
+    #planning img, #planning .bg-white img, .phone, #about-us img{
+        max-width: 100%;
+    }
 }
 /*----------------
     MOBILE
