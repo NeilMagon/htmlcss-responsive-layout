@@ -321,5 +321,7 @@ header{
     #benefit .col, #about-us .col{
         width: 100%;
     }
-    
+    #about-us .col{
+        padding-right: 0;
+    }
 }
