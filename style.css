@@ -103,6 +103,12 @@ button{
 .btn-radius{
     border-radius: 30px;
 }
+.btn-circle{
+    background-color: #9792e4;
+    clip-path: circle();
+    padding: 20px 20px;
+    font-size: 20px;
+}
 /*----------------
     COL
 ----------------*/
