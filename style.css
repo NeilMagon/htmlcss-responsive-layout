@@ -86,6 +86,23 @@ ul li{
 /*----------------
     BUTTON
 ----------------*/
+button{
+    border: none;
+    cursor: pointer;
+}
+.btn-padding{
+    padding: 15px 50px;
+}
+.btn-primary{
+    background-color: #0084fd;
+    letter-spacing: 2px;
+}
+.btn-head{
+    padding: 10px 15px;
+}
+.btn-radius{
+    border-radius: 30px;
+}
 /*----------------
     COL
 ----------------*/
@@ -257,6 +274,13 @@ header{
     font-size: 40px;
     font-weight: 900;
     color: #fff;
+}
+#benefit button{
+    letter-spacing: 1.5px;
+    padding: 10px 40px;
+    background-color: #9792e4;
+    color: #fff;
+    border-radius: 30px;
 }
 #about-us h1{
     font-size: 55px;
